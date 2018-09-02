@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: org.apache.camel:camel-xstream:2.22.0">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.camel/camel-xstream/2.22.0/484df86b24399e6e98a49d83065be308ecc0a1f1/camel-xstream-2.22.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.camel/camel-xstream/2.22.0/d9f10ea17759aadafdc06104395d71e89fbcb120/camel-xstream-2.22.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

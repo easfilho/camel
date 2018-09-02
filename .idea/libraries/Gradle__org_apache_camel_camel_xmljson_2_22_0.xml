@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: org.apache.camel:camel-xmljson:2.22.0">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.camel/camel-xmljson/2.22.0/50a7d9b4d51156794053fbbc7a94d3e11c7bfc62/camel-xmljson-2.22.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.camel/camel-xmljson/2.22.0/23aeec51979693fcd8ae4b1d89df7283c0e4bd31/camel-xmljson-2.22.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

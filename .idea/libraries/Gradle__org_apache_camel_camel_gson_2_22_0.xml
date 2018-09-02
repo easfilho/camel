@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: org.apache.camel:camel-gson:2.22.0">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.camel/camel-gson/2.22.0/fa933ed3ea7e14cbcb77ef3ddc754df19601771f/camel-gson-2.22.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.camel/camel-gson/2.22.0/689f5adba3a92383f091280b1529f76140e3dd71/camel-gson-2.22.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
