@@ -1,8 +1,15 @@
 package com.poc.camel.domain;
 
+import org.apache.camel.dataformat.bindy.annotation.CsvRecord;
+import org.apache.camel.dataformat.bindy.annotation.DataField;
+
+@CsvRecord(separator = ",", skipFirstLine = true)
 public class Employee {
+    @DataField(pos = 1)
     private String id;
+    @DataField(pos = 2)
     private String name;
+    @DataField(pos = 3)
     private String joinDate;
 
     public Employee() {

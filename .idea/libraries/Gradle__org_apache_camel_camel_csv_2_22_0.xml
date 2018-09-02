@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: org.apache.camel:camel-csv:2.22.0">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.camel/camel-csv/2.22.0/f0df58cfbde1378fa645245d30932a54f4137027/camel-csv-2.22.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.camel/camel-csv/2.22.0/e1a60402ab5aae527f453c94b3626b6f6504b942/camel-csv-2.22.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

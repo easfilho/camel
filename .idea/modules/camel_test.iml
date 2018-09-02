@@ -12,6 +12,8 @@
     <orderEntry type="library" name="Gradle: org.springframework.boot:spring-boot-starter-web:2.0.4.RELEASE" level="project" />
     <orderEntry type="library" name="Gradle: org.apache.camel:camel-xstream:2.22.0" level="project" />
     <orderEntry type="library" name="Gradle: org.apache.camel:camel-xmljson:2.22.0" level="project" />
+    <orderEntry type="library" name="Gradle: org.apache.camel:camel-csv:2.22.0" level="project" />
+    <orderEntry type="library" name="Gradle: org.apache.camel:camel-bindy:2.7.1" level="project" />
     <orderEntry type="library" name="Gradle: org.apache.camel:camel-gson:2.22.0" level="project" />
     <orderEntry type="library" name="Gradle: org.apache.camel:camel-test:2.22.0" level="project" />
     <orderEntry type="library" name="Gradle: org.apache.camel:camel-core:2.22.0" level="project" />
@@ -25,6 +27,7 @@
     <orderEntry type="library" name="Gradle: org.apache.logging.log4j:log4j-to-slf4j:2.10.0" level="project" />
     <orderEntry type="library" name="Gradle: org.slf4j:jul-to-slf4j:1.7.25" level="project" />
     <orderEntry type="library" name="Gradle: org.slf4j:slf4j-api:1.7.25" level="project" />
+    <orderEntry type="library" name="Gradle: org.apache.commons:commons-csv:1.5" level="project" />
     <orderEntry type="library" name="Gradle: xom:xom:1.2.5" level="project" />
     <orderEntry type="library" name="Gradle: org.springframework.boot:spring-boot-starter-tomcat:2.0.4.RELEASE" level="project" />
     <orderEntry type="library" name="Gradle: org.hibernate.validator:hibernate-validator:6.0.11.Final" level="project" />

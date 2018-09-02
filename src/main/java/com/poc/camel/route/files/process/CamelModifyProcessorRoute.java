@@ -9,7 +9,6 @@ public class CamelModifyProcessorRoute extends RouteBuilder {
         from("file:data/input?noop=true")
                 .log("Read file is ${body} and headers are ${headers}")
                 .process(new CamelFileExampleProcessor())
-                .to("file:data/output?fileName=output.txt")
-                .to("mock:output");
+                .to("file:data/output?fileName=output.txt");
     }
 }
