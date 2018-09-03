@@ -2,20 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b74f5481-48f3-44a7-9dbc-d23cbbc9d8e7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_camel_camel_bindy_2_7_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/poc/camel/route/csv/CsvUnMarshalRoute.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/poc/camel/route/csv/CsvUnMarshalRouteTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.8.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.8.1/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.8.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.8.1/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/camel_main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/camel_main.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/camel_test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/camel_test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/input/json/input.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/poc/camel/route/error/ErrorHandlerRoute.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/camel.log" beforeDir="false" afterPath="$PROJECT_DIR$/camel.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/poc/camel/domain/Employee.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/poc/camel/domain/Employee.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/poc/camel/domain/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/poc/camel/domain/Employee.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/poc/camel/route/files/process/CamelModifyProcessorRoute.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/poc/camel/route/files/process/CamelModifyProcessorRoute.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/output/output.txt" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -121,14 +112,14 @@
         <counts>
           <entry key="gitignore" value="12" />
           <entry key="gradle" value="13" />
-          <entry key="java" value="842" />
+          <entry key="java" value="1549" />
           <entry key="txt" value="86" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="Groovy" value="13" />
-          <entry key="JAVA" value="842" />
+          <entry key="JAVA" value="1549" />
           <entry key="PLAIN_TEXT" value="98" />
         </counts>
       </usages-collector>
@@ -137,7 +128,8 @@
           <entry key="gitignore" value="2" />
           <entry key="gradle" value="1" />
           <entry key="iml" value="1" />
-          <entry key="java" value="19" />
+          <entry key="java" value="52" />
+          <entry key="json" value="1" />
           <entry key="txt" value="3" />
         </counts>
       </usages-collector>
@@ -145,7 +137,8 @@
         <counts>
           <entry key="Groovy" value="1" />
           <entry key="IDEA_MODULE" value="1" />
-          <entry key="JAVA" value="19" />
+          <entry key="JAVA" value="52" />
+          <entry key="JSON" value="1" />
           <entry key="PLAIN_TEXT" value="5" />
         </counts>
       </usages-collector>
@@ -154,10 +147,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/poc/camel/route/csv/CsvUnMarshalRoute.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/poc/camel/route/gson/UnmarshalUsingGsonTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="186">
-              <caret line="14" column="28" lean-forward="true" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
+            <state relative-caret-position="460">
+              <caret line="23" selection-start-line="23" selection-end-line="23" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -166,42 +159,24 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/data/csv/input/file.txt">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/poc/camel/route/error/ErrorHandlerRoute.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="40">
-              <caret line="2" column="1" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/poc/camel/route/direct/SampleMockRoute.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="80">
-              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/poc/camel/domain/Employee.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-561">
-              <caret column="28" selection-start-column="8" selection-end-column="28" />
+            <state relative-caret-position="143">
+              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1010#1011#0" expanded="true" />
-                <element signature="e#1090#1091#0" expanded="true" />
+                <element signature="e#872#873#0" expanded="true" />
+                <element signature="e#903#904#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/poc/camel/route/csv/CsvUnMarshalRouteTest.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/poc/camel/route/route/ErrorHandlerRouteTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="22" column="35" selection-start-line="22" selection-start-column="8" selection-end-line="22" selection-end-column="35" />
+            <state relative-caret-position="220">
+              <caret line="14" column="43" selection-start-line="14" selection-start-column="43" selection-end-line="14" selection-end-column="43" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -210,10 +185,19 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/data/output/output.txt">
+        <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/junit/junit/4.12/a6c32b40bf3d76eca54e3c601e5d1470c86fcdfa/junit-4.12-sources.jar!/org/junit/internal/runners/model/ReflectiveCallable.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="8" selection-start-column="8" selection-end-column="8" />
+            <state relative-caret-position="221">
+              <caret line="13" selection-start-line="13" selection-end-line="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/poc/camel/route/files/process/CamelModifyProcessorRouteTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="13" column="28" selection-start-line="13" selection-start-column="28" selection-end-line="13" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -221,29 +205,47 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/poc/camel/route/files/process/CamelModifyProcessorRoute.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="11" column="60" selection-start-line="11" selection-start-column="60" selection-end-line="11" selection-end-column="60" />
+            <state relative-caret-position="80">
+              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/poc/camel/route/files/CopyFilesCamel.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/poc/camel/route/files/process/CamelModifyDirectProcessorRouteTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="15" column="52" selection-start-line="14" selection-start-column="20" selection-end-line="15" selection-end-column="52" />
+            <state relative-caret-position="100">
+              <caret line="10" column="43" selection-start-line="10" selection-start-column="43" selection-end-line="10" selection-end-column="43" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/poc/camel/route/files/process/CamelModifyDirectProcessorRoute.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="80">
+              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/poc/camel/route/files/transform/CamelModifyTransformRouteTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="100">
+              <caret line="10" column="32" selection-start-line="10" selection-start-column="32" selection-end-line="10" selection-end-column="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/poc/camel/route/gson/UnmarshalUsingGson.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="6" selection-start-line="6" selection-end-line="7" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/poc/camel/route/files/CopyFilesCamelWithLog.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="27" column="32" selection-start-line="27" selection-start-column="32" selection-end-line="27" selection-end-column="32" />
             </state>
           </provider>
         </entry>
@@ -260,6 +262,7 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>dataFormat</find>
+      <find>\</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -632,12 +635,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/data/input/input2.txt" />
-        <option value="$PROJECT_DIR$/src/main/java/com/poc/camel/files/CopyFilesCamel.java" />
-        <option value="$PROJECT_DIR$/data/input1/input_1_1.txt" />
-        <option value="$PROJECT_DIR$/data/input1/input_1_2.txt" />
-        <option value="$PROJECT_DIR$/data/input2/input_2_1.txt" />
-        <option value="$PROJECT_DIR$/data/input2/input_2_2.txt" />
         <option value="$PROJECT_DIR$/src/main/java/com/poc/camel/files/CopyFilesCamelWithLog.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/poc/camel/files/CopyFilesRoute.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/poc/camel/files/CopyFilesRouteTest.java" />
@@ -683,6 +680,12 @@
         <option value="$PROJECT_DIR$/src/test/java/com/poc/camel/route/csv/CsvUnMarshalRouteTest.java" />
         <option value="$PROJECT_DIR$/data/csv/input/file.txt" />
         <option value="$PROJECT_DIR$/src/main/java/com/poc/camel/route/csv/CsvUnMarshalRoute.java" />
+        <option value="$PROJECT_DIR$/data/json/input.json" />
+        <option value="$PROJECT_DIR$/src/main/java/com/poc/camel/route/files/CopyFilesRoute.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/poc/camel/route/gson/UnmarshalJsonFileUsingGson.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/poc/camel/route/gson/UnmarshalJsonFileUsingGsonTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/poc/camel/route/error/ErrorHandlerRoute.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/poc/camel/route/route/ErrorHandlerRouteTest.java" />
       </list>
     </option>
   </component>
@@ -729,6 +732,19 @@
               <item name="camel" type="b2602c69:ProjectViewProjectNode" />
               <item name="camel" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="data" type="462c0819:PsiDirectoryNode" />
+              <item name="input" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="camel" type="b2602c69:ProjectViewProjectNode" />
+              <item name="camel" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+              <item name="input" type="462c0819:PsiDirectoryNode" />
+              <item name="json" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="camel" type="b2602c69:ProjectViewProjectNode" />
+              <item name="camel" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
               <item name="output" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -741,6 +757,80 @@
               <item name="camel" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="camel" type="b2602c69:ProjectViewProjectNode" />
+              <item name="camel" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="camel" type="b2602c69:ProjectViewProjectNode" />
+              <item name="camel" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="camel" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="camel" type="b2602c69:ProjectViewProjectNode" />
+              <item name="camel" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="camel" type="462c0819:PsiDirectoryNode" />
+              <item name="route" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="camel" type="b2602c69:ProjectViewProjectNode" />
+              <item name="camel" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="camel" type="462c0819:PsiDirectoryNode" />
+              <item name="route" type="462c0819:PsiDirectoryNode" />
+              <item name="error" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="camel" type="b2602c69:ProjectViewProjectNode" />
+              <item name="camel" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="camel" type="462c0819:PsiDirectoryNode" />
+              <item name="route" type="462c0819:PsiDirectoryNode" />
+              <item name="files" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="camel" type="b2602c69:ProjectViewProjectNode" />
+              <item name="camel" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="camel" type="462c0819:PsiDirectoryNode" />
+              <item name="route" type="462c0819:PsiDirectoryNode" />
+              <item name="gson" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="camel" type="b2602c69:ProjectViewProjectNode" />
+              <item name="camel" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="camel" type="462c0819:PsiDirectoryNode" />
+              <item name="route" type="462c0819:PsiDirectoryNode" />
+              <item name="xml2json" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="camel" type="b2602c69:ProjectViewProjectNode" />
+              <item name="camel" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="camel" type="462c0819:PsiDirectoryNode" />
+              <item name="route" type="462c0819:PsiDirectoryNode" />
+              <item name="xmlxstrem" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="camel" type="b2602c69:ProjectViewProjectNode" />
@@ -772,6 +862,53 @@
               <item name="route" type="462c0819:PsiDirectoryNode" />
               <item name="csv" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="camel" type="b2602c69:ProjectViewProjectNode" />
+              <item name="camel" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="route" type="462c0819:PsiDirectoryNode" />
+              <item name="files" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="camel" type="b2602c69:ProjectViewProjectNode" />
+              <item name="camel" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="route" type="462c0819:PsiDirectoryNode" />
+              <item name="files" type="462c0819:PsiDirectoryNode" />
+              <item name="process" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="camel" type="b2602c69:ProjectViewProjectNode" />
+              <item name="camel" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="route" type="462c0819:PsiDirectoryNode" />
+              <item name="files" type="462c0819:PsiDirectoryNode" />
+              <item name="transform" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="camel" type="b2602c69:ProjectViewProjectNode" />
+              <item name="camel" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="route" type="462c0819:PsiDirectoryNode" />
+              <item name="gson" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="camel" type="b2602c69:ProjectViewProjectNode" />
+              <item name="camel" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="route" type="462c0819:PsiDirectoryNode" />
+              <item name="xml2json" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -782,28 +919,32 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1535859164172" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1535940176357" />
     <property name="full.screen.before.presentation.mode" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RecentsManager">
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="com.poc.camel.domain" />
-      <recent name="com.poc.camel.processors" />
-      <recent name="com.poc.camel.beans" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Projetos Java\camel\data\input\json" />
+      <recent name="E:\Projetos Java\camel\data\csv\input" />
+      <recent name="$PROJECT_DIR$/data/input" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Projetos Java\camel\src\test\java\com\poc\camel\route" />
+      <recent name="error" />
       <recent name="$PROJECT_DIR$/data/output" />
       <recent name="$PROJECT_DIR$/data/input2" />
       <recent name="$PROJECT_DIR$/data" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.poc.camel.route.gson" />
       <recent name="com.poc.camel.files" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\Projetos Java\camel\data\csv\input" />
-      <recent name="$PROJECT_DIR$/data/input" />
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.poc.camel.domain" />
+      <recent name="com.poc.camel.processors" />
+      <recent name="com.poc.camel.beans" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -818,24 +959,54 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.CsvUnMarshalRouteTest.testCsvMarshalRoute">
-    <configuration name="CsvUnMarshalRouteTest.testCsvMarshalRoute" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.ErrorHandlerRouteTest.testErrorHandler">
+    <configuration name="CopyFilesRouteTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="camel_test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.poc.camel.route.csv.*" />
+          <option name="PATTERN" value="com.poc.camel.route.files.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.poc.camel.route.csv" />
-      <option name="MAIN_CLASS_NAME" value="com.poc.camel.route.csv.CsvUnMarshalRouteTest" />
-      <option name="METHOD_NAME" value="testCsvMarshalRoute" />
+      <option name="PACKAGE_NAME" value="com.poc.camel.route.files" />
+      <option name="MAIN_CLASS_NAME" value="com.poc.camel.route.files.CopyFilesRouteTest" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CopyFilesRouteTest.checkFilesExistsInOutputDirectory" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="camel_test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.poc.camel.route.files.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.poc.camel.route.files" />
+      <option name="MAIN_CLASS_NAME" value="com.poc.camel.route.files.CopyFilesRouteTest" />
+      <option name="METHOD_NAME" value="checkFilesExistsInOutputDirectory" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MarshalUsingGsonTest.marshalUsingGson" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ErrorHandlerRouteTest.testErrorHandler" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="camel_test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.poc.camel.route.route.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.poc.camel.route.route" />
+      <option name="MAIN_CLASS_NAME" value="com.poc.camel.route.route.ErrorHandlerRouteTest" />
+      <option name="METHOD_NAME" value="testErrorHandler" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UnmarshalJsonFileUsingGsonTest.unmarshalUsinGson" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="camel_test" />
       <extension name="coverage">
         <pattern>
@@ -844,8 +1015,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.poc.camel.route.gson" />
-      <option name="MAIN_CLASS_NAME" value="com.poc.camel.route.gson.MarshalUsingGsonTest" />
-      <option name="METHOD_NAME" value="marshalUsingGson" />
+      <option name="MAIN_CLASS_NAME" value="com.poc.camel.route.gson.UnmarshalJsonFileUsingGsonTest" />
+      <option name="METHOD_NAME" value="unmarshalUsinGson" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -867,52 +1038,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Xml2JsonRouteTest.marshalEmployee2JsonXml" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="camel_test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.poc.camel.route.xml2json.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.poc.camel.route.xml2json" />
-      <option name="MAIN_CLASS_NAME" value="com.poc.camel.route.xml2json.Xml2JsonRouteTest" />
-      <option name="METHOD_NAME" value="marshalEmployee2JsonXml" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Xml2JsonRouteTest.unmarshalEmployeeJson2Xml" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="camel_test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.poc.camel.route.xml2json.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.poc.camel.route.xml2json" />
-      <option name="MAIN_CLASS_NAME" value="com.poc.camel.route.xml2json.Xml2JsonRouteTest" />
-      <option name="METHOD_NAME" value="unmarshalEmployeeJson2Xml" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
-      <item itemvalue="JUnit.Xml2JsonRouteTest.marshalEmployee2JsonXml" />
-      <item itemvalue="JUnit.Xml2JsonRouteTest.unmarshalEmployeeJson2Xml" />
-      <item itemvalue="JUnit.MarshalUsingGsonTest.marshalUsingGson" />
       <item itemvalue="JUnit.UnmarshalUsingGsonTest.unmarshalUsinGson" />
-      <item itemvalue="JUnit.CsvUnMarshalRouteTest.testCsvMarshalRoute" />
+      <item itemvalue="JUnit.UnmarshalJsonFileUsingGsonTest.unmarshalUsinGson" />
+      <item itemvalue="JUnit.CopyFilesRouteTest" />
+      <item itemvalue="JUnit.CopyFilesRouteTest.checkFilesExistsInOutputDirectory" />
+      <item itemvalue="JUnit.ErrorHandlerRouteTest.testErrorHandler" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.CsvUnMarshalRouteTest.testCsvMarshalRoute" />
+        <item itemvalue="JUnit.ErrorHandlerRouteTest.testErrorHandler" />
+        <item itemvalue="JUnit.UnmarshalJsonFileUsingGsonTest.unmarshalUsinGson" />
+        <item itemvalue="JUnit.CopyFilesRouteTest.checkFilesExistsInOutputDirectory" />
+        <item itemvalue="JUnit.CopyFilesRouteTest" />
         <item itemvalue="JUnit.UnmarshalUsingGsonTest.unmarshalUsinGson" />
-        <item itemvalue="JUnit.MarshalUsingGsonTest.marshalUsingGson" />
-        <item itemvalue="JUnit.Xml2JsonRouteTest.unmarshalEmployeeJson2Xml" />
-        <item itemvalue="JUnit.Xml2JsonRouteTest.marshalEmployee2JsonXml" />
       </list>
     </recent_temporary>
   </component>
@@ -930,35 +1069,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="CsvUnMarshalRouteTest_testCsvMarshalRoute - 2018.09.02 at 16h 33m 26s.xml">
-      <configuration name="CsvUnMarshalRouteTest.testCsvMarshalRoute" configurationId="JUnit" />
+    <history-entry file="UnmarshalJsonFileUsingGsonTest_unmarshalUsinGson - 2018.09.02 at 22h 20m 53s.xml">
+      <configuration name="UnmarshalJsonFileUsingGsonTest.unmarshalUsinGson" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CsvUnMarshalRouteTest_testCsvMarshalRoute - 2018.09.02 at 17h 04m 50s.xml">
-      <configuration name="CsvUnMarshalRouteTest.testCsvMarshalRoute" configurationId="JUnit" />
+    <history-entry file="CopyFilesRouteTest - 2018.09.02 at 22h 22m 17s.xml">
+      <configuration name="CopyFilesRouteTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CsvUnMarshalRouteTest_testCsvMarshalRoute - 2018.09.02 at 17h 05m 30s.xml">
-      <configuration name="CsvUnMarshalRouteTest.testCsvMarshalRoute" configurationId="JUnit" />
+    <history-entry file="CopyFilesRouteTest - 2018.09.02 at 22h 23m 31s.xml">
+      <configuration name="CopyFilesRouteTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CsvUnMarshalRouteTest_testCsvMarshalRoute - 2018.09.02 at 17h 08m 30s.xml">
-      <configuration name="CsvUnMarshalRouteTest.testCsvMarshalRoute" configurationId="JUnit" />
+    <history-entry file="CopyFilesRouteTest_checkFilesExistsInOutputDirectory - 2018.09.02 at 22h 25m 48s.xml">
+      <configuration name="CopyFilesRouteTest.checkFilesExistsInOutputDirectory" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CsvUnMarshalRouteTest_testCsvMarshalRoute - 2018.09.02 at 17h 09m 33s.xml">
-      <configuration name="CsvUnMarshalRouteTest.testCsvMarshalRoute" configurationId="JUnit" />
+    <history-entry file="UnmarshalJsonFileUsingGsonTest_unmarshalUsinGson - 2018.09.02 at 22h 45m 21s.xml">
+      <configuration name="UnmarshalJsonFileUsingGsonTest.unmarshalUsinGson" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CsvUnMarshalRouteTest_testCsvMarshalRoute - 2018.09.02 at 17h 16m 38s.xml">
-      <configuration name="CsvUnMarshalRouteTest.testCsvMarshalRoute" configurationId="JUnit" />
+    <history-entry file="ErrorHandlerRouteTest_testErrorHandler - 2018.09.02 at 22h 56m 57s.xml">
+      <configuration name="ErrorHandlerRouteTest.testErrorHandler" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CsvUnMarshalRouteTest_testCsvMarshalRoute - 2018.09.02 at 17h 18m 35s.xml">
-      <configuration name="CsvUnMarshalRouteTest.testCsvMarshalRoute" configurationId="JUnit" />
+    <history-entry file="ErrorHandlerRouteTest_testErrorHandler - 2018.09.02 at 22h 57m 54s.xml">
+      <configuration name="ErrorHandlerRouteTest.testErrorHandler" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CsvUnMarshalRouteTest_testCsvMarshalRoute - 2018.09.02 at 17h 29m 51s.xml">
-      <configuration name="CsvUnMarshalRouteTest.testCsvMarshalRoute" configurationId="JUnit" />
+    <history-entry file="ErrorHandlerRouteTest_testErrorHandler - 2018.09.02 at 22h 59m 04s.xml">
+      <configuration name="ErrorHandlerRouteTest.testErrorHandler" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CsvUnMarshalRouteTest_testCsvMarshalRoute - 2018.09.02 at 17h 33m 35s.xml">
-      <configuration name="CsvUnMarshalRouteTest.testCsvMarshalRoute" configurationId="JUnit" />
+    <history-entry file="ErrorHandlerRouteTest_testErrorHandler - 2018.09.02 at 23h 00m 15s.xml">
+      <configuration name="ErrorHandlerRouteTest.testErrorHandler" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CsvUnMarshalRouteTest_testCsvMarshalRoute - 2018.09.02 at 17h 35m 18s.xml">
-      <configuration name="CsvUnMarshalRouteTest.testCsvMarshalRoute" configurationId="JUnit" />
+    <history-entry file="ErrorHandlerRouteTest_testErrorHandler - 2018.09.02 at 23h 00m 42s.xml">
+      <configuration name="ErrorHandlerRouteTest.testErrorHandler" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TodoView">
@@ -984,14 +1123,14 @@
       <window_info id="Capture Tool" order="7" />
       <window_info id="Job Explorer" order="8" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32952693" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32626426" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.39836067" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3295082" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3262295" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39836067" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32952693" />
       <window_info anchor="bottom" id="Build" order="7" weight="0.32786885" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32952693" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.3295082" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.3262295" />
       <window_info anchor="bottom" id="Console" order="11" />
@@ -1064,11 +1203,37 @@
           <properties />
           <option name="timeStamp" value="5" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/poc/camel/route/route/ErrorHandlerRouteTest.java</url>
+          <line>17</line>
+          <properties />
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>consumer</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>consumer.receive(&quot;file:data/input/json?fileName=input.json&amp;noop=true&quot;)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>(Employee) consumer.receive(&quot;file:output/json&quot;)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>(Employee) template.requestBody(&quot;file:output/json&quot;)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
       <expression>
         <expression-string>employees.get(1).toString()</expression-string>
         <language-id>JAVA</language-id>
@@ -1097,54 +1262,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/data/output/input_1_1.txt" />
-    <entry file="file://$PROJECT_DIR$/data/sampleOutput/output.txt" />
-    <entry file="file://$PROJECT_DIR$/sampleOutput/output.txt" />
-    <entry file="file://$PROJECT_DIR$/src/main/resources/log4j.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="76" lean-forward="true" selection-end-line="15" selection-end-column="76" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/junit/junit/4.12/a6c32b40bf3d76eca54e3c601e5d1470c86fcdfa/junit-4.12-sources.jar!/org/junit/rules/TestWatcher.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="66" selection-start-line="66" selection-end-line="66" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/junit/junit/4.12/a6c32b40bf3d76eca54e3c601e5d1470c86fcdfa/junit-4.12-sources.jar!/org/junit/internal/runners/statements/RunAfters.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="181">
-          <caret line="38" selection-start-line="38" selection-end-line="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/junit/junit/4.12/a6c32b40bf3d76eca54e3c601e5d1470c86fcdfa/junit-4.12-sources.jar!/org/junit/internal/runners/model/ReflectiveCallable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/poc/camel/route/files/CopyFilesRoute.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/poc/camel/route/files/CopyFilesRouteTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="19" column="44" selection-start-line="19" selection-start-column="44" selection-end-line="19" selection-end-column="44" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/poc/camel/route/direct/SampleDirectRouteTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -1194,20 +1311,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="10" column="61" selection-start-line="10" selection-start-column="61" selection-end-line="10" selection-end-column="61" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/poc/camel/route/files/process/CamelModifyProcessorRouteTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="27" column="36" selection-start-line="27" selection-start-column="8" selection-end-line="27" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/poc/camel/route/files/process/CamelModifyDirectProcessorRouteTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="33" lean-forward="true" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1215,13 +1321,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="9" column="45" selection-start-line="9" selection-start-column="45" selection-end-line="9" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/poc/camel/route/files/transform/CamelModifyTransformRouteTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="32" selection-start-line="10" selection-start-column="32" selection-end-line="10" selection-end-column="32" />
         </state>
       </provider>
     </entry>
@@ -1299,36 +1398,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/poc/camel/route/gson/UnmarshalUsingGson.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="11" column="14" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/poc/camel/route/gson/UnmarshalUsingGsonTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" selection-start-line="23" selection-end-line="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/poc/camel/route/xmlxstrem/UnmarshallUsingXstream.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="22" column="31" selection-start-line="22" selection-start-column="31" selection-end-line="22" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/camel.iml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -1363,16 +1432,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/poc/camel/route/gson/MarshalUsingGsonTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="99">
-          <caret line="18" column="89" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="89" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/poc/camel/route/bean/CamelModifyBeanRoute.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
@@ -1383,51 +1442,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/poc/camel/route/direct/SampleDirectRoute.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="9" column="64" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="64" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/poc/camel/route/files/process/CamelModifyDirectProcessorRoute.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="12" column="16" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/poc/camel/route/xml2json/Xml2JsonRoute.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="302">
-          <caret line="20" column="18" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/poc/camel/route/files/CopyFilesCamelWithLog.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="200">
           <caret line="27" column="32" selection-start-line="27" selection-start-column="32" selection-end-line="27" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/poc/camel/route/files/process/CamelModifyProcessorRoute.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="11" column="60" selection-start-line="11" selection-start-column="60" selection-end-line="11" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/poc/camel/route/files/CopyFilesCamel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="15" column="52" selection-start-line="14" selection-start-column="20" selection-end-line="15" selection-end-column="52" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1485,10 +1503,186 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/poc/camel/route/direct/SampleDirectRoute.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.camel/camel-core/2.22.0/ecc448a7af4cada462c75431981015f8c84e41a8/camel-core-2.22.0-sources.jar!/org/apache/camel/builder/DefaultErrorHandlerBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="123" column="38" selection-start-line="123" selection-start-column="38" selection-end-line="123" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/poc/camel/route/gson/MarshalUsingGsonTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="18" column="89" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="89" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/poc/camel/route/xml2json/Xml2JsonRoute.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="20" column="18" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/poc/camel/route/csv/CsvUnMarshalRouteTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="22" column="35" selection-start-line="22" selection-start-column="8" selection-end-line="22" selection-end-column="35" />
+        <state relative-caret-position="221">
+          <caret line="25" column="1" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/poc/camel/route/files/CopyFilesRouteTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="262">
+          <caret line="20" column="46" selection-start-line="20" selection-start-column="46" selection-end-line="20" selection-end-column="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/poc/camel/route/files/CopyFilesRoute.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/poc/camel/route/files/CopyFilesCamel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="15" column="52" selection-start-line="14" selection-start-column="20" selection-end-line="15" selection-end-column="52" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/input/json/input.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="4" column="1" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/poc/camel/route/xmlxstrem/UnmarshallUsingXstream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="22" column="31" selection-start-line="22" selection-start-column="31" selection-end-line="22" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/poc/camel/route/files/transform/CamelModifyTransformRouteTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="10" column="32" selection-start-line="10" selection-start-column="32" selection-end-line="10" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/poc/camel/route/files/process/CamelModifyDirectProcessorRoute.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/poc/camel/route/files/process/CamelModifyDirectProcessorRouteTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="10" column="43" selection-start-line="10" selection-start-column="43" selection-end-line="10" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/poc/camel/route/files/process/CamelModifyProcessorRoute.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/poc/camel/route/files/process/CamelModifyProcessorRouteTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="13" column="28" selection-start-line="13" selection-start-column="28" selection-end-line="13" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/poc/camel/route/gson/UnmarshalUsingGson.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="6" selection-start-line="6" selection-end-line="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/poc/camel/route/gson/UnmarshalJsonFileUsingGson.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/poc/camel/route/gson/UnmarshalJsonFileUsingGsonTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="17" column="17" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/poc/camel/route/gson/UnmarshalUsingGsonTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="460">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/junit/junit/4.12/a6c32b40bf3d76eca54e3c601e5d1470c86fcdfa/junit-4.12-sources.jar!/org/junit/internal/runners/model/ReflectiveCallable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/poc/camel/route/error/ErrorHandlerRoute.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="143">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#872#873#0" expanded="true" />
+            <element signature="e#903#904#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/poc/camel/route/route/ErrorHandlerRouteTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="14" column="43" selection-start-line="14" selection-start-column="43" selection-end-line="14" selection-end-column="43" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
